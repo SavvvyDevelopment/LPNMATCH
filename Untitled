@@ -1,0 +1,14 @@
+# Postgres — your database connection
+DATABASE_URL="postgresql://neondb_owner:npg_FwtJOQre7hm8@ep-blue-credit-b52rrsc1.c-7.us-east-2.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
+DATABASE_URL_POOLED="postgresql://neondb_owner:npg_FwtJOQre7hm8@ep-blue-credit-b52rrsc1-pooler.c-7.us-east-2.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
+
+# Neon Managed Better Auth — sign-in for your app
+NEON_AUTH_BASE_URL="https://ep-blue-credit-b52rrsc1.neonauth.c-7.us-east-2.aws.neon.tech/neondb/auth"
+NEON_AUTH_COOKIE_SECRET="3GeCQNrMuSutKB8GMHpChOnVfWMSmb6uMU4Hgb1fMoU="
+
+# Storage — S3-compatible object storage
+AWS_ENDPOINT_URL_S3="https://br-crimson-credit-b57cfhae.storage.c-7.us-east-2.aws.neon.tech"
+AWS_ACCESS_KEY_ID="nak_live_b558bab2625e46ffbb67868f9e866dea"
+AWS_SECRET_ACCESS_KEY="nsk_live_d5e8cc50f0d563437fa2303d867900e2853de953f9e753336c1efa8c54ff202e"
+AWS_REGION="us-east-2"
+S3_BUCKET="lpnmatch"
